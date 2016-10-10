@@ -1,0 +1,26 @@
+{
+  "name": "docker_node_helloworld",
+  "version": "1.0.0",
+  "description": "this is a test project what develop node app in docker",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ZackLeonardo@github.com/ZackLeonardo/docker_node_helloWorld.git"
+  },
+  "keywords": [
+    "node",
+    "docker"
+  ],
+  "author": "zoudeyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZackLeonardo/docker_node_helloWorld/issues"
+  },
+  "homepage": "https://github.com/ZackLeonardo/docker_node_helloWorld#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
