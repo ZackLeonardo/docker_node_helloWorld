@@ -8,7 +8,13 @@ This is a test project that develop node app in docker with DI tool--jenkins.
 
 docker build -t maiz9088/docker-node-hello .
 
-docker run —name node-hello -d maiz9088/docker-node-hello
+if
+  [docker ps -a | grep node-hello != ""];
+then
+  docker rm node-hello
+fi
+
+docker run --name node-hello -d maiz9088/docker-node-hello
 
 ## License
 
